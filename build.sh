@@ -1,4 +1,4 @@
 #!/bin/bash
-source variables
+export $(cat  variables | xargs)
 
 env
