@@ -34,7 +34,7 @@ def healthcheck():
 
 @app.route("/variable")
 def check_var():
-    return os.getenv('COMPETITOR_ID')
+    return str(os.getenv('COMPETITOR_ID'))
 
 if __name__ == '__main__':
     try:
