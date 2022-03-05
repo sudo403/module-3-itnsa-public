@@ -1,4 +1,4 @@
 #!/bin/bash
 export $(cat  variables | xargs)
 
-env
+#write your ci/cd code here
